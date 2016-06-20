@@ -1,0 +1,15 @@
+{
+  "name": "creonit/propel-video-behavior",
+  "type": "propel-behavior",
+  "keywords": [
+    "creonit",
+    "symfony",
+    "propel",
+    "behavior"
+  ],
+  "extra": {
+    "name": "video",
+    "class": "Creonit\\PropelBehaviorBundle\\Video\\VideoBehavior"
+  },
+  "license": "GNU GPLv3"
+}
