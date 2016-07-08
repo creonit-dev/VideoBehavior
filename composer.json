@@ -9,7 +9,12 @@
   ],
   "extra": {
     "name": "video",
-    "class": "Creonit\\PropelBehaviorBundle\\Video\\VideoBehavior"
+    "class": "Creonit\\PropelVideoBehavior\\VideoBehavior"
   },
-  "license": "GNU GPLv3"
+  "license": "GNU GPLv3",
+  "autoload": {
+    "psr-4": {
+      "Creonit\\PropelVideoBehavior\\": ""
+    }
+  }
 }
